@@ -1,0 +1,9 @@
+# Ask the user for the starting number
+countdown_start = int(input("Enter a number to start the countdown: "))
+
+# Use a while loop to countdown from the input number to 1
+while countdown_start > 0:
+    print(countdown_start)  # Print the current number
+    countdown_start -= 1  # Decrease the number by 1
+
+print("Countdown complete!") # print the countdown number 
